@@ -23,3 +23,4 @@ rows, cols = np.where(sum_matrix == target)
 result = [f"{arr[i]} + {arr[j]} = {target}" for i, j in zip(rows, cols) if i < j]
 
 print(result)
+
